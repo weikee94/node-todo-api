@@ -8,7 +8,6 @@
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
   },
-  // telling heroku which version of node we refering
   "engine": {
     "node": "6.2.2"
   },
